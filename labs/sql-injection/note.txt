@@ -1,0 +1,13 @@
+SQL Injection with Filter Bypass via XML Encoding
+Lab: SQL injection with filter bypass via XML encoding
+Tool: Burp Suite Repeater
+Request: POST with XML body
+Injection point: <storeId>
+Technique: XML/HTML entity encoding
+Purpose: Bypass the application's SQLi filter
+SQLi used: UNION SELECT
+Target table: users
+Retrieved: usernames + passwords
+Result: Administrator credentials obtained
+Final: Logged in as administrator
+Lab status: Solved
